@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="burger.css">
+    <title>Job04</title>
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar">
+            <button onclick="myFunction()">
+            <a href="#" class="burger-nav"><img src="img/burger.webp"></a>
+            </button>
+             <ul id="myDIV">
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Présentation</a></li>
+                <li><a href="#">Contact</a></li>
+             </ul>
+
+
+    </header>
+
+
+    <script>
+        function myFunction() {
+          var x = document.getElementById("myDIV");
+          if (x.style.display === "none") {
+            x.style.display = "block";
+          } else {
+            x.style.display = "none";
+          }
+        }
+    </script>
+    
+</body>
+</html>

@@ -1,0 +1,32 @@
+section{
+    background-color: #88c1d0;
+    margin-right: 5%;
+    width: 15%;
+    margin-bottom: 5%;
+}
+
+
+
+@media all and (min-width: 1600px){
+    body{
+        display: flex;
+    }
+}
+
+
+
+@media all and (min-width: 768px) and (max-width: 1599px){
+    body{
+        display: grid;
+        grid-template-columns: auto auto;
+
+    }
+}
+
+
+
+@media screen and (max-width: 767px){
+    body{
+        display: block;
+    }
+}
